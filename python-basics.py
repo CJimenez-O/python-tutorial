@@ -164,5 +164,7 @@ Jimenez = Teacher("Mr.Jimenez")
 # ######## Modules ###########
 
 import modulesFile
+#  Another way of importing certail functions
+from modulesFile import talk  # typed as: talk()
 
 modulesFile.talk()
